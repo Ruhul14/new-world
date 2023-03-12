@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<title>Picture Element for Image Format</title>
+	<meta charset="utf-8"
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h2>The Picture Element</h2>
+
+<picture>
+	<source srcset="Dice.png">
+	<source srcset="Moon.jpg">
+	<img src="Galaxy.gif" alt="Galaxy" style="width:auto;">
+</picture>
+<p>The picture element can be used when the image format is not supported by all devices.</p>
+
+<p>The device will use the first image format it supports, and ignore the rest of the images.</p>
+</body>
+</html>

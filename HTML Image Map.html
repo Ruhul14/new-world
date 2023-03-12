@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML Image Map</title>
+</head>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the Monitor, <del title="Not yet linked">the Printer, the Speaker, the Headphone or the Projector</del> to go to a new 
+page and read more about the topics:</p>
+
+<img src="output-devices.jpg" alt="Output Devices" usemap="#workmap" width="433" height="280">
+
+<map name="workmap">
+	<area shape="rect" coords="44,59,131,121" alt="Monitor" href="Monitor.html" target="_blank">
+</map>
+
+<p>Click on the coffee, the phone or the pistachio nut to go to the page and read more about the topics:</p>
+
+<img src="Office Desk.jpg" alt="Office Desk" usemap="#smap" style="width:800px; height:533px;">
+
+<map name="smap">
+	<area shape="poly" coords="149,170,143,175,90,283,91,289,98,295,160,302,168,294,214,187,213,179,208,175" alt="Mobile" href="Mobile.html" target="_blank">
+	<area shape="circle" coords="667,359,57" alt="Coffee" href="Coffee.html" target="_blank">
+	<area shape="poly" coords="512,168,531,168,549,160,547,153,565,143,586,141,600,136,621,139,640,157,674,202,662,203,646,233,622,
+					243,585,249,552,234,517,216,520,187,508,186,510,171" alt="Pistachio Nut" href="Pistachio Nut.html" target="_blank">
+</map>
+</body>
+</html> 
